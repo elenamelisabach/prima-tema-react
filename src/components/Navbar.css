@@ -1,0 +1,25 @@
+.navbar {
+  background-color: var(--grey);
+  position: fixed;
+  height: 100%;
+  width: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+
+  top: 0;
+  left: 0;
+}
+.navbar-list {
+  list-style-type: none;
+  text-align: center;
+}
+.navbar-list .navbar-item {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.navbar-item:hover {
+  background-color: var(--dark-blue);
+}

@@ -1,0 +1,35 @@
+.main .container-card {
+  width: 100%;
+  max-width: 1200px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.card {
+  padding: 50px 50px;
+  border-radius: 8px;
+  border: 1px solid rgba(128, 128, 128, 0.672);
+  max-width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--grey);
+  cursor: pointer;
+}
+.card:hover {
+  background-color: var(--dark-blue);
+}
+
+.card .card-img {
+  height: 200px;
+  width: 300px;
+  object-fit: cover;
+  transition: transform 0.3s;
+  display: flex;
+}
